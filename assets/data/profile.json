@@ -1,78 +1,77 @@
 {
-    "name": "Renan J Paula",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Tech Lead no S3 Bank",
-    "location": "São Paulo - SP",
-    "phone": "(16) 98159-7656",
-    "email": "renanjohannsen@gmail.com",
-    "skills": {
-      "hardSkills": [
-        {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-        },
-        {
-          "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-        },
-        {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-        },
-        {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-        },
-        {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-        },
-        {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
-        }
-      ],
-      "softSkills": [
-        "Empatia",
-        "Liderança",
-        "Trabalho em equipe",
-        "Flexibilidade",
-        "Organização"
-      ]
-    },
-    "languages": [
-      "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
-    ],
-    "portfolio": [
+  "name": "Vinícius Alochio",
+  "photo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/image_perfil.jpeg",
+  "job": "Junior Developer",
+  "location": "João Monlevade - MG",
+  "phone": "(28) 99951-5181",
+  "email": "alochioti@outlook.com",
+  "skills": {
+    "hardSkills": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-        "github": true
+        "name": "HTML",
+        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-html.svg"
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-        "github": true
+        "name": "CSS",
+        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-js.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-java.svg"
       }
     ],
-    "professionalExperience": [
-      {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-      },
-      {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-      },
-      {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
-      }
+    "softSkills": [
+      "Facilidade de aprendizado",
+      "Comunicação",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização",
+      "Comprometido com resultados"
     ]
-  }
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (Básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Site de cafeteria - Bootcamp de CSS da DIO",
+      "url": "https://github.com/Alochio/projeto-site-cafeteria-bootstrap-DIO"
+    },
+    {
+      "name": "Pokedex com a PokeAPI - Bootcamp de JS da DIO",
+      "url": "https://github.com/Alochio/Pokedex-NodeJS-DIO"
+    },
+    {
+      "name": "Clone Site HBO MAX",
+      "url": "https://github.com/Alochio/clone-hbomax"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Estagiário de TI - Engenharia de Software",
+      "company": "Vale S.A.",
+      "period": "Dez 2022 - Dez 2023",
+      "description[0]": "Automação de tarefas por meio da programação;",
+      "description[1]": "Manter e assegurar a aplicação dos padrões de banco de dados;",
+      "description[2]": "Suportar função manter do VPS (MODELO DE GESTÃO DA VALE) para agerência;",
+      "description[3]": "Buscar inovação e desenvolvimento em Devsecops;",
+      "description[4]": "Atuação no caso de uso: Aumentar a produtividade das aperações da Vale otimizando o uso da automação através da coleta de dados em ambientes de automação com ferramentas do tipo historiados de dados - PIMS (PLANT MANAGEMENT INFORMATION SYSTEM) e Ingestão/disponibilização dos dados em camadas analíticas;"
+    },
+    {
+      "name": "Estágio em Desenvolvimento Full Stack",
+      "company": "Usiminas",
+      "period": "Jul 2021 - Dez 2022",
+      "description[0]": "Desenvolvimento / manutenção em objetos de banco de dados;",
+      "description[1]": "Manutenção de aplicações Java nas arquiteturas RichFaces e PrimeFaces;",
+      "description[2]": "Desenvolvimento de novas funcionalidades nas arquiteturas citadas;",
+      "description[3]": "Manutenção e desenvolvimento de novas funcionalidades (telas / relatórios) em aplicações Java IONIC;",
+      "description[4]": "Edição e criação de relatórios Crystal;",
+      "description[5]": "Realização de testes nos sistemas internos;"
+    }
+  ]
+}
