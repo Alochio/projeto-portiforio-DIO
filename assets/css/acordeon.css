@@ -38,6 +38,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../images/icons/arrow.svg);
+    transition: 0.5s;
 }
 
 .acordeon.open .trigger::after{
@@ -45,12 +46,15 @@
     border: #55569E;
 }
 
-.acordeon.open .content{
-    display: inline;
-
+.acordeon .content{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
 }
 
-
-.acordeon .content{
-    display: none;
+.acordeon.open .content{
+    display: inline-block;
+    height: auto;
+    opacity: 1;
 }
