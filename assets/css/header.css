@@ -30,6 +30,11 @@
     font-size: 1.2rem;
 }
 
+.information p a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .information p::before {
     content: '';
     display: inline-block;
