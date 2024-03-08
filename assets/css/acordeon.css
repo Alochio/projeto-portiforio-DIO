@@ -41,20 +41,27 @@
     transition: 0.5s;
 }
 
+.acordeon.open .trigger{
+    background-color: #55569E;
+    border-radius: 1rem 1rem 0 0;
+}
+
 .acordeon.open .trigger::after{
     transform: rotate(180deg);
-    border: #55569E;
 }
 
 .acordeon .content{
     overflow: hidden;
+    background-color: #55569E;
+    border-radius: 0 0 1rem 1rem;
     height: 0;
     opacity: 0;
     transition: opacity .5s ease-in-out;
 }
 
 .acordeon.open .content{
-    display: inline-block;
+    display: block;
+    padding: 0 1rem 2rem 2rem;
     height: auto;
     opacity: 1;
 }
