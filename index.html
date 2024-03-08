@@ -23,16 +23,17 @@
 <body>
     <div class="main">
         <header class="header">
-            <img src="./assets/images/image_perfil.jpeg" alt="Foto de perfil do Vinícius Alochio" class="photo">
-            <h1 class="title">Olá,<br>eu sou o Vinícius Alochio!</h1>
+            <img src="./assets/images/image_perfil.jpeg" alt="Foto de perfil do Vinícius Alochio" class="photo"
+                id="profilePhoto">
+            <h1 class="title">Olá,<br>eu sou o <span id="profileName"></span>!</h1>
             <div class="information">
-                <p class="profession">Junior Developer</p>
-                <p class="address">Minas Gerais - BR</p>
+                <p class="profession"><span id="profileJob"></span></p>
+                <p class="address"><span id="profileLocation"></span></p>
                 <p class="whatsapp">
-                    <a href="https://wa.me/5528999515181" target="_blank">(28) 9 9951-5181</a>
+                    <a target="_blank" id="profilePhone"></a>
                 </p>
                 <p class="email">
-                    <a href="mailto:alochioti@outlook.com" target="_blank">alochioti@outlook.com</a>
+                    <a target="_blank" id="profileEmail"></a>
                 </p>
             </div>
         </header>
@@ -45,32 +46,12 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Habilidades Profissionais</h3>
-                        <ul>
-                            <li>
-                                <img src="./assets/images/icons/logo-html.svg" alt="logo do html" title="HTML">
-                            </li>
-                            <li>
-                                <img src="./assets/images/icons/logo-css.svg" alt="logo do CSS" title="CSS">
-                            </li>
-                            <li>
-                                <img src="./assets/images/icons/logo-js.svg" alt="logo do JavaScript"
-                                    title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="./assets/images/icons/logo-java.svg" alt="logo do Java" title="Java">
-                            </li>
-                        </ul>
+                        <ul id="profileSkillsHardSkills"></ul>
                     </section>
 
                     <section class="personal">
                         <h3>Habilidades Pessoais</h3>
-                        <ul>
-                            <li>Facilidade com tarefas práticas</li>
-                            <li>Comunicação</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Organizaação</li>
-                            <li>Comprometido com resultados</li>
-                        </ul>
+                        <ul id="profileSkillsSoftSkills"></ul>
                     </section>
                 </div>
         </section>
@@ -81,8 +62,8 @@
             </button>
             <div class="content">
                 <ul class="languages">
-                    <li>Portugês</li>
-                    <li>Inglês</li>
+                    <li><span id="idioma1">Carregando</li>
+                    <li><span id="idioma2">Carregando</li>
                 </ul>
             </div>
         </section>
@@ -94,19 +75,16 @@
             <div class="content projects">
                 <ul>
                     <li>
-                        <span class="title">Site de cafeteria - Bootcamp de CSS da DIO</span>
-                        <a href="https://github.com/Alochio/projeto-site-cafeteria-bootstrap-DIO"
-                            target="_blank">https://github.com/Alochio/projeto-site-cafeteria-bootstrap-DIO</a>
+                        <span class="title" id="project1Name"></span>
+                        <a target="_blank" id="project1Link"></a>
                     </li>
                     <li>
-                        <span class="title">Pokedex com a PokeAPI - Bootcamp de JS da DIO</span>
-                        <a href="https://github.com/Alochio/Pokedex-NodeJS-DIO"
-                            target="_blank">https://github.com/Alochio/Pokedex-NodeJS-DIO</a>
+                        <span class="title" id="project2Name"></span>
+                        <a target="_blank" id="project2Link"></a>
                     </li>
                     <li>
-                        <span class="title">Clone Site HBO MAX</span>
-                        <a href="https://github.com/Alochio/clone-hbomax"
-                            target="_blank">https://github.com/Alochio/clone-hbomax</a>
+                        <span class="title" id="project3Name"></span>
+                        <a target="_blank" id="project3Link"></a>
                     </li>
                 </ul>
         </section>
@@ -119,18 +97,18 @@
                 <ul class="experiences">
                     <div class="container">
                         <li>
-                            <span class="title">Estagiário de TI - Engenharia de Software</span>
-                            <p class="company">Vale S.A.</p>
-                            <p class="date">Dez 2022 - Dez 2023</p>
-                            <ul>
-                                <li class="description">Automação de tarefas por meio da programação;</li>
-                                <li class="description">Manter e assegurar a aplicação dos padrões de banco de dados;
+                            <span class="title" id="experiencia1"></span>
+                            <p class="company" id="company1"></p>
+                            <p class="date" id="data1"></p>
+                            <ul id="atividadesRealizadasCompany1">
+                                <li class="description" id="description1Experiencia1">Automação de tarefas por meio da programação;</li>
+                                <li class="description" id="description2Experiencia1">Manter e assegurar a aplicação dos padrões de banco de dados;
                                 </li>
-                                <li class="description">Suportar função manter do VPS (MODELO DE GESTÃO DA VALE) para a
+                                <li class="description" id="description3Experiencia1">Suportar função manter do VPS (MODELO DE GESTÃO DA VALE) para a
                                     gerência;
                                 </li>
-                                <li class="description">Buscar inovação e desenvolvimento em Devsecops;</li>
-                                <li class="description"> Atuação no caso de uso:
+                                <li class="description" id="description4Experiencia1">Buscar inovação e desenvolvimento em Devsecops;</li>
+                                <li class="description" id="description5Experiencia1"> Atuação no caso de uso:
                                     Aumentar a produtividade das aperações da Vale otimizando o uso da automação através
                                     da
                                     coleta
@@ -144,9 +122,9 @@
                     <div class="container">
                         </li>
                         <li>
-                            <span class="title">Estágio em Desenvolvimento Full Stack</span>
-                            <p class="company">Usiminas</p>
-                            <p class="date">Jul 2021 - Dez 2022</p>
+                            <span class="title" id="experiencia2"></span>
+                            <p class="company" id="company2"></p>
+                            <p class="date" id="data2"></p>
                             <ul>
                                 <li class="description">Desenvolvimento / manutenção em objetos de banco de dados
                                     (Oracle).</li>
@@ -169,7 +147,7 @@
     </div>
 
     <script src="./assets/js/acordeon.js"></script>
-    <script src="./assets/js/api.js" ></script>
+    <script src="./assets/js/api.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
