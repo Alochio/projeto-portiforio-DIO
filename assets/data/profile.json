@@ -10,19 +10,19 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-html.svg"
+        "logo": "https://raw.githubusercontent.com/Alochio/projeto-portiforio-DIO/02bfab7d7aec209093d8104ea10a94b2c71ae0a7/assets/images/icons/logo-html.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-css.svg"
+        "logo": "https://raw.githubusercontent.com/Alochio/projeto-portiforio-DIO/02bfab7d7aec209093d8104ea10a94b2c71ae0a7/assets/images/icons/logo-css.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-js.svg"
+        "logo": "https://raw.githubusercontent.com/Alochio/projeto-portiforio-DIO/02bfab7d7aec209093d8104ea10a94b2c71ae0a7/assets/images/icons/logo-js.svg"
       },
       {
         "name": "Java",
-        "logo": "https://github.com/Alochio/projeto-portiforio-DIO/blob/main/assets/images/icons/logo-java.svg"
+        "logo": "https://raw.githubusercontent.com/Alochio/projeto-portiforio-DIO/02bfab7d7aec209093d8104ea10a94b2c71ae0a7/assets/images/icons/logo-java.svg"
       }
     ],
     "softSkills": [
